@@ -12,6 +12,7 @@
 		7D0B5A79273C19A4002B21FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B5A78273C19A4002B21FC /* Assets.xcassets */; };
 		7D0B5A7C273C19A4002B21FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B5A7B273C19A4002B21FC /* Preview Assets.xcassets */; };
 		7D0B5A89273C23C7002B21FC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B5A88273C23C7002B21FC /* API.swift */; };
+		7D0B5A8B273C251C002B21FC /* API +Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B5A8A273C251C002B21FC /* API +Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7D0B5A78273C19A4002B21FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D0B5A7B273C19A4002B21FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7D0B5A88273C23C7002B21FC /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		7D0B5A8A273C251C002B21FC /* API +Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API +Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				7D0B5A88273C23C7002B21FC /* API.swift */,
+				7D0B5A8A273C251C002B21FC /* API +Extension.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D0B5A77273C19A1002B21FC /* ContentView.swift in Sources */,
+				7D0B5A8B273C251C002B21FC /* API +Extension.swift in Sources */,
 				7D0B5A89273C23C7002B21FC /* API.swift in Sources */,
 				7D0B5A75273C19A1002B21FC /* WeatherApp2App.swift in Sources */,
 			);
