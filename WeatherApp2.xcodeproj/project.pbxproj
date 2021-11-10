@@ -11,6 +11,7 @@
 		7D0B5A77273C19A1002B21FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B5A76273C19A1002B21FC /* ContentView.swift */; };
 		7D0B5A79273C19A4002B21FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B5A78273C19A4002B21FC /* Assets.xcassets */; };
 		7D0B5A7C273C19A4002B21FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B5A7B273C19A4002B21FC /* Preview Assets.xcassets */; };
+		7D0B5A89273C23C7002B21FC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B5A88273C23C7002B21FC /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7D0B5A76273C19A1002B21FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D0B5A78273C19A4002B21FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D0B5A7B273C19A4002B21FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D0B5A88273C23C7002B21FC /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,12 @@
 		7D0B5A73273C19A1002B21FC /* WeatherApp2 */ = {
 			isa = PBXGroup;
 			children = (
+				7D0B5A87273C23B3002B21FC /* Networking */,
+				7D0B5A86273C1AC3002B21FC /* LottieAnimations */,
+				7D0B5A85273C1AC0002B21FC /* Models */,
+				7D0B5A84273C1ABE002B21FC /* View */,
+				7D0B5A83273C1ABB002B21FC /* Model */,
+				7D0B5A82273C1AB8002B21FC /* ViewModel */,
 				7D0B5A74273C19A1002B21FC /* WeatherApp2App.swift */,
 				7D0B5A76273C19A1002B21FC /* ContentView.swift */,
 				7D0B5A78273C19A4002B21FC /* Assets.xcassets */,
@@ -65,6 +73,49 @@
 				7D0B5A7B273C19A4002B21FC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D0B5A82273C1AB8002B21FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7D0B5A83273C1ABB002B21FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D0B5A84273C1ABE002B21FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7D0B5A85273C1AC0002B21FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7D0B5A86273C1AC3002B21FC /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LottieAnimations;
+			sourceTree = "<group>";
+		};
+		7D0B5A87273C23B3002B21FC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7D0B5A88273C23C7002B21FC /* API.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D0B5A77273C19A1002B21FC /* ContentView.swift in Sources */,
+				7D0B5A89273C23C7002B21FC /* API.swift in Sources */,
 				7D0B5A75273C19A1002B21FC /* WeatherApp2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +324,7 @@
 				DEVELOPMENT_TEAM = 39ZRTLY4D9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location for weather data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +354,7 @@
 				DEVELOPMENT_TEAM = 39ZRTLY4D9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location for weather data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
