@@ -19,6 +19,7 @@
 		7D0B5A93273C2D84002B21FC /* WeatherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B5A92273C2D84002B21FC /* WeatherDetail.swift */; };
 		7D0B5A95273C2D95002B21FC /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B5A94273C2D95002B21FC /* DailyWeather.swift */; };
 		7D0B5A97273C2DB7002B21FC /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B5A96273C2DB7002B21FC /* Temperature.swift */; };
+		7D2BE98E273D67AB00E2C8E6 /* CityViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BE98D273D67AB00E2C8E6 /* CityViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		7D0B5A92273C2D84002B21FC /* WeatherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetail.swift; sourceTree = "<group>"; };
 		7D0B5A94273C2D95002B21FC /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
 		7D0B5A96273C2DB7002B21FC /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		7D2BE98D273D67AB00E2C8E6 /* CityViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		7D0B5A82273C1AB8002B21FC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				7D2BE98D273D67AB00E2C8E6 /* CityViewViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D0B5A77273C19A1002B21FC /* ContentView.swift in Sources */,
+				7D2BE98E273D67AB00E2C8E6 /* CityViewViewModel.swift in Sources */,
 				7D0B5A93273C2D84002B21FC /* WeatherDetail.swift in Sources */,
 				7D0B5A8F273C2C6B002B21FC /* WeatherResponse.swift in Sources */,
 				7D0B5A8B273C251C002B21FC /* API +Extension.swift in Sources */,
