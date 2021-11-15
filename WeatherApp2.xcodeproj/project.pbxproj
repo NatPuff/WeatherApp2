@@ -20,6 +20,8 @@
 		7D0B5A95273C2D95002B21FC /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B5A94273C2D95002B21FC /* DailyWeather.swift */; };
 		7D0B5A97273C2DB7002B21FC /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B5A96273C2DB7002B21FC /* Temperature.swift */; };
 		7D2BE98E273D67AB00E2C8E6 /* CityViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BE98D273D67AB00E2C8E6 /* CityViewViewModel.swift */; };
+		7D6308B22742AFBF00B331BC /* WeatherLottieJSON in Resources */ = {isa = PBXBuildFile; fileRef = 7D6308B12742AFBF00B331BC /* WeatherLottieJSON */; };
+		7D6308B52742B3E300B331BC /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7D6308B42742B3E300B331BC /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,7 @@
 		7D0B5A94273C2D95002B21FC /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
 		7D0B5A96273C2DB7002B21FC /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		7D2BE98D273D67AB00E2C8E6 /* CityViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewViewModel.swift; sourceTree = "<group>"; };
+		7D6308B12742AFBF00B331BC /* WeatherLottieJSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WeatherLottieJSON; path = WeatherApp2/WeatherLottieJSON; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D6308B52742B3E300B331BC /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +132,7 @@
 		7D0B5A86273C1AC3002B21FC /* LottieAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				7D6308B12742AFBF00B331BC /* WeatherLottieJSON */,
 			);
 			path = LottieAnimations;
 			sourceTree = "<group>";
@@ -158,6 +163,9 @@
 			dependencies = (
 			);
 			name = WeatherApp2;
+			packageProductDependencies = (
+				7D6308B42742B3E300B331BC /* Lottie */,
+			);
 			productName = WeatherApp2;
 			productReference = 7D0B5A71273C19A1002B21FC /* WeatherApp2.app */;
 			productType = "com.apple.product-type.application";
@@ -186,6 +194,9 @@
 				Base,
 			);
 			mainGroup = 7D0B5A68273C19A1002B21FC;
+			packageReferences = (
+				7D6308B32742B3E300B331BC /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 7D0B5A72273C19A1002B21FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -201,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D0B5A7C273C19A4002B21FC /* Preview Assets.xcassets in Resources */,
+				7D6308B22742AFBF00B331BC /* WeatherLottieJSON in Resources */,
 				7D0B5A79273C19A4002B21FC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +439,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7D6308B32742B3E300B331BC /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D6308B42742B3E300B331BC /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D6308B32742B3E300B331BC /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7D0B5A69273C19A1002B21FC /* Project object */;
 }
