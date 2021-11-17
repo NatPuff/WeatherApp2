@@ -22,6 +22,10 @@
 		7D2BE98E273D67AB00E2C8E6 /* CityViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BE98D273D67AB00E2C8E6 /* CityViewViewModel.swift */; };
 		7D6308B22742AFBF00B331BC /* WeatherLottieJSON in Resources */ = {isa = PBXBuildFile; fileRef = 7D6308B12742AFBF00B331BC /* WeatherLottieJSON */; };
 		7D6308B52742B3E300B331BC /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7D6308B42742B3E300B331BC /* Lottie */; };
+		7D6308B72742BCCE00B331BC /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6308B62742BCCE00B331BC /* LottieView.swift */; };
+		7DD80D00274551940078D80D /* MenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD80CFF274551940078D80D /* MenuHeaderView.swift */; };
+		7DD80D02274557120078D80D /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD80D01274557120078D80D /* CityView.swift */; };
+		7DD80D0427455F2D0078D80D /* CityNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD80D0327455F2D0078D80D /* CityNameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		7D0B5A96273C2DB7002B21FC /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		7D2BE98D273D67AB00E2C8E6 /* CityViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewViewModel.swift; sourceTree = "<group>"; };
 		7D6308B12742AFBF00B331BC /* WeatherLottieJSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WeatherLottieJSON; path = WeatherApp2/WeatherLottieJSON; sourceTree = SOURCE_ROOT; };
+		7D6308B62742BCCE00B331BC /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		7DD80CFF274551940078D80D /* MenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderView.swift; sourceTree = "<group>"; };
+		7DD80D01274557120078D80D /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		7DD80D0327455F2D0078D80D /* CityNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityNameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +88,6 @@
 				7D0B5A83273C1ABB002B21FC /* Model */,
 				7D0B5A82273C1AB8002B21FC /* ViewModel */,
 				7D0B5A74273C19A1002B21FC /* WeatherApp2App.swift */,
-				7D0B5A76273C19A1002B21FC /* ContentView.swift */,
 				7D0B5A78273C19A4002B21FC /* Assets.xcassets */,
 				7D0B5A7A273C19A4002B21FC /* Preview Content */,
 			);
@@ -113,6 +120,11 @@
 		7D0B5A84273C1ABE002B21FC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7D0B5A76273C19A1002B21FC /* ContentView.swift */,
+				7D6308B62742BCCE00B331BC /* LottieView.swift */,
+				7DD80CFF274551940078D80D /* MenuHeaderView.swift */,
+				7DD80D01274557120078D80D /* CityView.swift */,
+				7DD80D0327455F2D0078D80D /* CityNameView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -226,15 +238,19 @@
 			files = (
 				7D0B5A77273C19A1002B21FC /* ContentView.swift in Sources */,
 				7D2BE98E273D67AB00E2C8E6 /* CityViewViewModel.swift in Sources */,
+				7DD80D0427455F2D0078D80D /* CityNameView.swift in Sources */,
 				7D0B5A93273C2D84002B21FC /* WeatherDetail.swift in Sources */,
 				7D0B5A8F273C2C6B002B21FC /* WeatherResponse.swift in Sources */,
 				7D0B5A8B273C251C002B21FC /* API +Extension.swift in Sources */,
+				7DD80D02274557120078D80D /* CityView.swift in Sources */,
 				7D0B5A8D273C2845002B21FC /* NetworkManager.swift in Sources */,
 				7D0B5A89273C23C7002B21FC /* API.swift in Sources */,
+				7DD80D00274551940078D80D /* MenuHeaderView.swift in Sources */,
 				7D0B5A75273C19A1002B21FC /* WeatherApp2App.swift in Sources */,
 				7D0B5A91273C2D64002B21FC /* Weather.swift in Sources */,
 				7D0B5A97273C2DB7002B21FC /* Temperature.swift in Sources */,
 				7D0B5A95273C2D95002B21FC /* DailyWeather.swift in Sources */,
+				7D6308B72742BCCE00B331BC /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
